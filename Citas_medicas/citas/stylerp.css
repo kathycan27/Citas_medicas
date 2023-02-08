@@ -1,0 +1,26 @@
+body {
+  
+    background: linear-gradient(to right, rgb(77, 77, 234), rgb(137, 211, 227));
+    
+  }
+
+  .cabecera
+  {
+    color: antiquewhite;
+    text-align: center;
+    height: 50%;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .imagen{
+    width: 600px;
+    height: 400px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+
+
+}
+ main{
+    background-color: antiquewhite;
+ }
