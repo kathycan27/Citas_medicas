@@ -1,0 +1,80 @@
+body{
+    background-color:hsl(244, 79%, 74%);
+    background-image:url("/inicio1.jpg");
+    
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+.contenedor{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: -100px;
+    border-radius: 0px 0px  300px 0px;
+    width: 500px;
+    height: 719px  ;
+    padding-left: 0;
+    background-color: rgb(140, 51, 218,0.8)
+    
+
+}
+    .elementos{width: 520px;
+        height:620px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 270%;        
+    color: aliceblue;
+    
+    }
+    .imagen{
+        width: 600px;
+        height: 400px;
+        
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
+
+
+    }
+    .cont{
+        display:flex;
+        flex-direction: row;
+        
+        font-style: italic;
+        }
+    
+        .registro{
+            margin: 0px auto;
+            border-radius: 10px;
+            width: 200px;
+            height: 50px;
+            display:flex;
+            align-items: center;
+            text-align: center;
+            flex-direction: row;  background: linear-gradient(to right, rgb(77, 77, 234), rgb(137, 211, 227));
+            
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(15, 12, 12);
+            }
+            .bregistro{
+                width:100%;
+                }
+                .ingreso{
+                    margin: 0px auto;
+                    border-radius: 10px;
+                    width: 200px;
+                    height: 50px;
+                    display:flex;
+                    align-items: center;
+                    text-align: center;
+                    flex-direction: row;
+                    margin-left: 800px;
+                    
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: linear-gradient(to right, rgb(77, 77, 234), rgb(137, 211, 227));
+            
+                    color: rgb(15, 12, 12);
+                    }
+                    .bingreso{
+                        width:100%;
+                        }
